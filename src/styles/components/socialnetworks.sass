@@ -1,0 +1,41 @@
+@use '../variables'
+@use '../mixins'
+
+#social-networks
+    @include mixins.center
+    gap: 1rem
+    margin: 1rem 0
+
+
+    .social-btn
+        paddin: .6rem
+        background-color: variables.$bg-color
+        border-radius: variables.$card-border-radius
+        color: #333
+        font-size: 1.6rem
+        @include mixins.center
+        
+        animation: jump 0.5s alternate infinite
+
+    #linkedin
+        color: #0072B1
+
+    #github
+        color: #111
+    
+    #instagram
+        color: #bc2a8c
+
+    :hover
+        background: variables.$gradient
+        transition: .3s
+        > svg
+            color: variables.$text-color
+
+@keyframes jump
+    0%
+        transform: translateY(0)
+    50%
+        transform: translateY(-5px) /* Pequeno salto para cima */
+    100%
+        transform: translateY(0)
