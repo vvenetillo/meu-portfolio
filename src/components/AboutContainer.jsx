@@ -3,7 +3,7 @@ const AboutContainer = () => {
     <section className="about-container">
       <h2>Sobre</h2>
       <p style={{marginLeft: "10px"}}>
-        👋 Olá, bem-vindo(a), sou um Desenvolvedor Full-Stack com foco em
+        👋 Olá, bem-vindo(a), sou um Desenvolvedor Front-end com foco em
         criar experiências digitais excepcionais. Minhas habilidades em
         React.Js, JavaScript, Bootstrap e NodeJs me permitem transformar ideias
         em realidade.
