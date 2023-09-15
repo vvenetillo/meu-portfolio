@@ -8,7 +8,6 @@ function App() {
 
   return (
     <div id="portfolio">
-      <h1>José Victor</h1>
       <Sidebar />
       <MainContent />
     </div>
