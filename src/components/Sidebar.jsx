@@ -7,7 +7,7 @@ import InformationContainer from "./InformationContainer";
 
 const Sidebar = () => {
   return (
-    <aside id="sidebar">
+    <aside id="sidebar" style={{minWidth: "450px"}}>
       <img src={Avatar} alt="Minha imagem" />
       <p className="title">
         <TypeAnimation
