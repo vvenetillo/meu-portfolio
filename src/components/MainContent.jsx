@@ -5,7 +5,7 @@ import TechnologiesContainer from './TechnologiesContainer'
 import '../styles/components/maincontent.sass'
 const MainContent =() =>{
     return(
-        <main id='main-content'>
+        <main id='main-content' style={{minWidth: "400px"}}>
             <AboutContainer />
             <TechnologiesContainer />
             <ProjectContainer />
