@@ -27,7 +27,7 @@ const TechnologiesContainer = () => {
         <section className='technologies-container'>
             <h2> Tecnologias</h2>
             <p style={{marginLeft: "10px"}}> CONHECIMENTO EM:</p>
-            <div className="technologies-grid" >
+            <div className="technologies-grid" style={{alignItems: "center" }} >
                 {technologies.map((tech) => (
                     <div className="technology-card" id={tech.id} key={tech.id} style={{minWidth: "350px"}}>
                         {tech.icon}
