@@ -1,5 +1,5 @@
 import Pao from "../img/repo.paodequeijo.png";
-import Generator from "../img/repo.generator.png";
+import PsStore from "../img/ps-store.png";
 import Login from "../img/login.png";
 
 import "../styles/components/projectcontainer.sass";
@@ -32,9 +32,9 @@ const ProjectContainer = () => {
           </a>
         </span>
         <span className="lista-projetos">
-          <a href="https://github.com/vvenetillo/Gerador-de-senha">
+          <a href="https://github.com/vvenetillo/Ps-store_angular">
             <img
-              src={Generator}
+              src={PsStore}
               alt="imagem do repositório do gerador de senha"
               className="projetos"
             />
