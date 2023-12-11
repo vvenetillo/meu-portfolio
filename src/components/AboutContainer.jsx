@@ -3,9 +3,9 @@ const AboutContainer = () => {
     <section className="about-container">
       <h2>Sobre</h2>
       <p>
-        👋 Olá, bem-vindo(a), sou um Desenvolvedor Front-end com foco em
+        👋 Olá, bem-vindo(a), sou um Desenvolvedor Full-stack com foco em
         criar experiências digitais excepcionais. Minhas habilidades em
-        React.Js, JavaScript, Bootstrap e NodeJs me permitem transformar ideias
+        React.Js, JavaScript, NodeJs e MongoDB me permitem transformar ideias
         em realidade.
       </p>
       <p>

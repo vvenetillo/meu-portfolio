@@ -18,7 +18,7 @@ const Sidebar = () => {
             1000,
             "Desenvolvedor",
             1000,
-            "Desenvolvedor front-end",
+            "Desenvolvedor full-stack",
             0,
           ]}
           speed={50}
