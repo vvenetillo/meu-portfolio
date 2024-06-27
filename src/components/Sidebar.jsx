@@ -33,8 +33,8 @@ const Sidebar = () => {
       <SocialNetworks />
       <InformationContainer />
       <a
-        href="curriculo/JoseVictorDev.pdf"
-        download="JoseVictorDev.pdf"
+        href="curriculo/JVictorDev2024.pdf"
+        download="JVictorDev2024.pdf"
         className="btn"
       >
         Download currículo
