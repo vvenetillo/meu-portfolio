@@ -34,7 +34,7 @@ const Sidebar = () => {
       <InformationContainer />
       <a
         href="curriculo/JVictorDev2024.pdf"
-        download="JVictorDev2024.pdf"
+        download="JoseVictorDev2025.pdf"
         className="btn"
       >
         Download currículo
